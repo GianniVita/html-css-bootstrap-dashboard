@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
 
                 <img src="./img/duck.png" alt="Bootstrap" width="50" height="50">
@@ -59,34 +59,69 @@
 
             <div class="row">
                 <div class="col">
+                    <div class="d-flex justify-content-between mt-3">
+                        <h2>Cataloghi Libri</h2>
+                        <button type="button" class="btn btn-primary">Primary</button>
+                    </div>
                     <table class="table">
                         <thead>
-                          <tr>
-                            <th scope="col">Titolo</th>
-                            <th scope="col">Data prestito</th>
-                            <th scope="col">Stato</th>
-                            <th scope="col">Azioni</th>
-                          </tr>
+                            <tr>
+                                <th scope="col">Titolo</th>
+                                <th scope="col">Data prestito</th>
+                                <th scope="col">Stato</th>
+                                <th scope="col">Azioni</th>
+                            </tr>
                         </thead>
                         <tbody>
-                          <tr class="table-secondary">
-                            <th scope="row">I pilastri della terra</th>
-                            <td>-</td>
-                            <td><span class="badge text-bg-success">Disponibile</span></td>
-                            <td><i class="border border-dark-subtle p-1 bi bi-pencil-fill"></i><i class="border border-dark-subtle p-1 bi bi-trash-fill"></i></td>
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                          </tr>
-                          <tr class="table-secondary">
-                            <th scope="row">3</th>
-                            <td>John</td>
-                            <td>Doe</td>
-                            <td>@social</td>
-                          </tr>
+                            
+                            <div class="col-8">
+                                <tr class="table-secondary ">
+                                    <th scope="row">I pilastri della terra</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class="border border-dark-subtle p-1 gx-1 bi bi-pencil-fill"></i><i class="border border-dark-subtle p-1 bi bi-trash-fill"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">I pilastri della terra</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class="border border-dark-subtle p-1 gx-1 bi bi-pencil-fill"></i><i class="border border-dark-subtle p-1 bi bi-trash-fill"></i></td>
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th scope="row">Il Signore degli Anelli</th>
+                                    <td>18/10/2023</td>
+                                    <td><span class="badge text-bg-warning">In prestito</span></td>
+                                    <td><i class="border border-dark-subtle p-1 gx-1 bi bi-pencil-fill"></i><i class="border border-dark-subtle p-1 bi bi-trash-fill"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Harry Potter e la Pietra Filosofale</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class="border border-dark-subtle p-1 gx-1 bi bi-pencil-fill"></i><i class="border border-dark-subtle p-1 bi bi-trash-fill"></i></td>
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th scope="row">Il codice Da Vinci</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Non disponibile</span></td>
+                                    <td><i class="border border-dark-subtle p-1 gx-1 bi bi-pencil-fill"></i><i class="border border-dark-subtle p-1 bi bi-trash-fill"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Shining</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class="border border-dark-subtle p-1 gx-1 bi bi-pencil-fill"></i><i class="border border-dark-subtle p-1 bi bi-trash-fill"></i></td>
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th scope="row">La Divina Commedia</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class="border border-dark-subtle p-1 gx-1 bi bi-pencil-fill"></i><i class="border border-dark-subtle p-1 bi bi-trash-fill"></i></td>
+                                </tr>
+                            </div>
+                                
+
+
+
                         </tbody>
                       </table>
                 </div>
