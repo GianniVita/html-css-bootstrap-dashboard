@@ -45,19 +45,40 @@
     </header>
 
     <main>
-        <div class="container pt-3">
-
+        <div class="container mt-4">
+            <h1 class="mb-5">Nuovo Libro</h1>
             <div class="row g-3">
                 <div class="col-6">
-                    <input type="text" class="form-control" placeholder="Nome Autore" aria-label="First name">
+                    <h6>Nome Autore</h6>
+                    <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore" aria-label="First name">
                 </div>
                 <div class="col-6">
-                    <input type="text" class="form-control" placeholder="Cognome Autore" aria-label="Last name">
+                    <h6>Cognome Autore</h6>
+                    <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore" aria-label="Last name">
                 </div>
                 <div class="col-sm-12">
-                    <input type="text" class="form-control" placeholder="Titolo" aria-label="Last name">
+                    <h6>Titolo</h6>
+                    <input type="text" class="form-control" placeholder="Inserisci il titolo del libro" aria-label="Last name">
                     Titolo versione italiana
                 </div>
+                <div class="col-sm-12">
+                    <label for="inputState" class="form-label">Genere</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Scegli il genere</option>
+                      <option>Avventure</option>
+                      <option>Dramma</option>
+                      <option>Fiction</option>
+                    </select>
+                </div>
+                <div class="col-sm-12">
+                    <label for="inputyear" class="form-label">Anno di Pubblicazione</label>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno" id="inputyear">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputIsbn#" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Inserisci il codice ISBN#">
+                  </div>
+
             </div>
         </div>
 
